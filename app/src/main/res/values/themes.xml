@@ -4,5 +4,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.StopWatch" parent="Base.Theme.StopWatch" />
+    <style name="Theme.StopWatch" parent="Base.Theme.StopWatch">
+        <!-- Example of using tools namespace for design-time attributes -->
+        <item name="android:layout_margin" tools:ignore="MissingDefaultResource" type="attr">16dp</item>
+    </style>
 </resources>
+
