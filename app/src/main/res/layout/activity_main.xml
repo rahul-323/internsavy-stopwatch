@@ -29,9 +29,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Start"
-            android:textColor="#ffffff"
-            android:background="#4CAF50"
-            android:onClick="startTimer"/>
+            android:textColor="#333333"
+        android:background="#4CAF50"
+        android:onClick="startTimer"/>
+
 
         <Button
             android:id="@+id/btnStop"
